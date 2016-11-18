@@ -13,8 +13,9 @@
 		B0B9B5161DDC985900DB73EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B9B5141DDC985900DB73EA /* Main.storyboard */; };
 		B0B9B5181DDC985900DB73EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B9B5171DDC985900DB73EA /* Assets.xcassets */; };
 		B0B9B51B1DDC985900DB73EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B9B5191DDC985900DB73EA /* LaunchScreen.storyboard */; };
-		B0B9B5251DDC9EF800DB73EA /* hello.js in Resources */ = {isa = PBXBuildFile; fileRef = B0B9B5241DDC9EF800DB73EA /* hello.js */; };
 		B0B9B5281DDC9F5100DB73EA /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B9B5271DDC9F5100DB73EA /* JavaScriptCore.framework */; };
+		B8B716F11DDD8B6800CB0D69 /* www in Resources */ = {isa = PBXBuildFile; fileRef = B8B716F01DDD8B6800CB0D69 /* www */; };
+		F80AED061DDD50A500E6F120 /* versionDes.html in Resources */ = {isa = PBXBuildFile; fileRef = F80AED051DDD50A500E6F120 /* versionDes.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		B0B9B5171DDC985900DB73EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B9B51A1DDC985900DB73EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B9B51C1DDC985900DB73EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0B9B5241DDC9EF800DB73EA /* hello.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hello.js; sourceTree = "<group>"; };
 		B0B9B5271DDC9F5100DB73EA /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B8B716F01DDD8B6800CB0D69 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		F80AED051DDD50A500E6F120 /* versionDes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = versionDes.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		B0B9B4FF1DDC985900DB73EA = {
 			isa = PBXGroup;
 			children = (
+				B8B716F01DDD8B6800CB0D69 /* www */,
 				B0B9B50A1DDC985900DB73EA /* testJS */,
 				B0B9B5091DDC985900DB73EA /* Products */,
 				B0B9B5261DDC9F5100DB73EA /* Frameworks */,
@@ -64,6 +67,7 @@
 		B0B9B50A1DDC985900DB73EA /* testJS */ = {
 			isa = PBXGroup;
 			children = (
+				F80AED051DDD50A500E6F120 /* versionDes.html */,
 				B0B9B50E1DDC985900DB73EA /* AppDelegate.h */,
 				B0B9B50F1DDC985900DB73EA /* AppDelegate.m */,
 				B0B9B5111DDC985900DB73EA /* ViewController.h */,
@@ -73,7 +77,6 @@
 				B0B9B5191DDC985900DB73EA /* LaunchScreen.storyboard */,
 				B0B9B51C1DDC985900DB73EA /* Info.plist */,
 				B0B9B50B1DDC985900DB73EA /* Supporting Files */,
-				B0B9B5241DDC9EF800DB73EA /* hello.js */,
 			);
 			path = testJS;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 				TargetAttributes = {
 					B0B9B5071DDC985900DB73EA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 88V5WLTCAY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,7 +159,8 @@
 				B0B9B51B1DDC985900DB73EA /* LaunchScreen.storyboard in Resources */,
 				B0B9B5181DDC985900DB73EA /* Assets.xcassets in Resources */,
 				B0B9B5161DDC985900DB73EA /* Main.storyboard in Resources */,
-				B0B9B5251DDC9EF800DB73EA /* hello.js in Resources */,
+				B8B716F11DDD8B6800CB0D69 /* www in Resources */,
+				F80AED061DDD50A500E6F120 /* versionDes.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -275,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -286,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88V5WLTCAY;
 				INFOPLIST_FILE = testJS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iaski.testJS;
@@ -297,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88V5WLTCAY;
 				INFOPLIST_FILE = testJS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iaski.testJS;
@@ -323,6 +330,7 @@
 				B0B9B5211DDC985900DB73EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
